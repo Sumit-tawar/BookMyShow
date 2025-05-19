@@ -1,0 +1,154 @@
+*{
+    margin: 0;;
+}
+
+
+.header1{
+    display: flex;
+    padding-top: 20px;
+    justify-content:space-between;
+    background-color: rgb(236, 40, 40);
+    align-items: baseline;
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+
+.right{
+    display: flex;
+    color: white;
+    margin-right: 1rem;
+}
+
+.left{
+    color: white;
+    margin-left: 2rem;
+
+}
+
+.option{
+    margin-left: 1rem;
+    font-size: 1.3rem;
+}
+
+.header2{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    padding: 1.2rem;
+}
+
+.search{
+    display: flex;
+}
+
+.search > button{
+
+    background-color: rgb(236, 40, 40);
+    color: white;
+    margin-left: 10px;
+    border-radius: 7px;
+    
+}
+
+.input{
+    font-size: 0.9rem;
+    width:300px;
+    padding-left: 7px;
+    border-radius: 5px;
+}
+
+.booking{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(./mover.jpg);
+    height: px;
+
+} 
+
+.experience{
+     color: white; 
+    background-color: black;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+
+
+   
+}
+
+.book{
+    color: white;
+    background-color:  rgb(236, 40, 40);
+    font-size: 1.1rem;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 16px;
+    
+} 
+
+.movie{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+}
+  
+.card{
+    display: flex;
+    margin-top: 15px;
+}
+
+.img{
+    height: 250px;
+
+}
+
+.pmovies{
+    margin-right: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.card{
+    background-color:white;
+    border:white;
+    overflow-x: scroll;
+
+}
+:hover.pmovies{
+    background-color: rgb(250, 235, 215);
+    border: rgb(250, 235, 215);
+}
+
+
+.bot{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.bo {
+    max-width: 80%;
+    border-radius: 5px;
+}
+
+ 
+@media (max-width:600){
+
+    .header1{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .right{
+        flex-direction: columns;
+    }
+
+    .card{
+        flex-direction: column;
+    }
+
+}
